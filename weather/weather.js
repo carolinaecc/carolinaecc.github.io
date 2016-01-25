@@ -13,10 +13,10 @@ $(function() {
 var markup = "<p> <b>Current weather: </b>" + data.currently.summary +". Temperature: " + data.currently.temperature  + " </p>" +
 
     
-    "<p> <b> Tomorrow: </b>" + data.daily.data[0].summary +" Temperature Range: " + data.daily.data[0].apparentTemperatureMin + "-" + data.daily.data[0].apparentTemperatureMax+  " </p>"+
+    "<p> <b> Tomorrow: </b>" + data.daily.data[1].summary +" Temperature Range: " + data.daily.data[1].apparentTemperatureMin + "-" + data.daily.data[0].apparentTemperatureMax+  " </p>"+
 
-    "<p><b>In 2 days: </b>" + data.daily.data[1].summary +" Temperature Range: " + data.daily.data[1].apparentTemperatureMin + "-" + data.daily.data[1].apparentTemperatureMax+" </p>"+
-    "<p> <b>In 3 days: </b>" + data.daily.data[2].summary +" Temperature Range: " + data.daily.data[2].apparentTemperatureMin + "-" + data.daily.data[2].apparentTemperatureMax+ " </p>"
+    "<p><b>In 2 days: </b>" + data.daily.data[2].summary +" Temperature Range: " + data.daily.data[2].apparentTemperatureMin + "-" + data.daily.data[1].apparentTemperatureMax+" </p>"+
+    "<p> <b>In 3 days: </b>" + data.daily.data[3].summary +" Temperature Range: " + data.daily.data[3].apparentTemperatureMin + "-" + data.daily.data[2].apparentTemperatureMax+ " </p>"
 
     ;
     // End of your code. No, really. Don't change anything below this, or above line 11.
