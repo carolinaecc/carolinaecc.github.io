@@ -1,13 +1,13 @@
 
-h1{
-  text-align: center;
-  colo:navy;
-  }
 
+.jumbotron {
+    padding: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: rgba(238, 238, 238, 0);
+}
 
-
-h2{
-  text-align: center;
-  }
-
-  h3{color:navy;}
+h3{
+  color: #A53E3C;
+  font-size: 30
+}
